@@ -1,0 +1,45 @@
+/*!
+ * 
+ * Health v.1.0.0
+ * 
+ */
+
+/*
+[Table of contents]
+
+1. Text Color
+2. Background Color
+3. Border Color
+*/
+ 
+/*** Text Color
+----------------------------------------------------------------- ***/
+
+a, a:hover, .color-primary, .section-single .btn, .social-links li a:hover, .widget_contact li:before, .options li .fa, .bottom-links a:hover, .post-nav a:hover, .owl-controls-2 .owl-buttons > div:hover:before, .contact-list li a:hover, .blog-btm ul.options li a:hover, .widget_categories ul li:hover, .widget_categories ul li:hover a, .widget_tweets .feeds > li:before, .widget_tweets .feeds > li a:hover , .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{
+	color:#ea699e;
+}
+
+
+/*** Background Color
+----------------------------------------------------------------- ***/
+
+.bg-primary, .navbar-nav > li.active > a:before, .navbar-nav > li:hover > a:before, .btn-primary, .heading:before, .search-init-btn, .footer header:before, .widget header:before, .title:before, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .date-float, .news-box:hover .readmore, .dept-box-2:hover .readmore, .owl-buttons > div:after, .blog-btm li a:hover, .section-testimonials:before, .panel-title .iconic:before, .team-box .text .exp, .section-social, .social-opener, .btn-grey:hover, .btn-grey:focus, .btn-grey:active, .btn-grey.active, .site-banner, .image-hover figcaption .image-popup:hover,
+.image-hover figcaption .link:hover, .reply-button, #load-selected-member .owl-buttons > div:hover, #load-selected-member .owl-buttons > button:hover {
+	background-color:#ea699e;
+}
+::selection {
+	background-color:#ea699e;
+	color:#fff;
+}
+::-moz-selection {
+	background-color:#ea699e;
+	color:#fff;
+}
+
+
+
+/*** Border Color
+----------------------------------------------------------------- ***/
+.form-control:focus, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .comment-box figure, .owl-buttons > div, .snap, .dept-box-2:hover .iconic:before, .filter-tabs li.active, .blockquote-post, .owl-controls-2 .owl-buttons > div:hover, .hoverable .team-box .text, .widget_categories ul li:hover, .team-tabs-list li.active a {
+	border-color:#ea699e;
+}
