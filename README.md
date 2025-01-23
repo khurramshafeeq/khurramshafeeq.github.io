@@ -1,1 +1,0 @@
-# khurramshafeeq.github.io
