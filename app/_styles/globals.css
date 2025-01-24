@@ -1,0 +1,52 @@
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #210c33;
+  width: 30px;
+  border-radius: 30px;
+}
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #c3c7ce;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
